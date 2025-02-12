@@ -35,7 +35,7 @@ enum AuthState {
 }
 
 class Auth: ObservableObject {
-    static private let _CLIENT_ID                        = "tzfjQ4wkhk1IALRq"
+    static private let _CLIENT_ID                        = "클라이언트 ID"
     static private let _CLIENT_UNIQUE_KEY                = UUID().uuidString
     static private let _CREDENTIALS_KEY                  = Bundle.main.bundleIdentifier!
     static private let _SCOPES           : Set< String > = ["playlists.read", "entitlements.read", "collection.read", "user.read", "recommendations.read", "playback"]
